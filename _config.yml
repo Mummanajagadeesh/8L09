@@ -1,26 +1,12 @@
-title: Techinal Blog
-author: Jagadeesh Mummana
-description: Welcome to my blog!!
+title: "Technical Blog"
+description: "Welcome to my blog!"
+author: "Jagadeesh Mummana"
 theme: minima
-
-
-url: ""
-
-github:
-  username: Mummanajagadeesh # change to your GitHub username
-
-twitter:
-  username: twitter_username # change to your Twitter username
-
-social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: jagadeesh Mummana
-  email: mummanajagadeesh97@gmail.com # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/Mummanajagadeesh # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+url: "https://Mummanajagadeesh.github.io/8L09"
+baseurl: "/8L09"
+social_links:
+  twitter: "https://twitter.com/yourhandle"
+  github: "https://github.com/Mummanajagadeesh"
+  linkedin: "https://linkedin.com/in/yourhandle"
+plugins:
+  - jekyll-seo-tag
