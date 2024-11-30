@@ -16,29 +16,40 @@
 <body>
 
   <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
 
-    <!-- Social Links -->
-    {% include social-links.html %}
+      <!-- Bio Section -->
+      <div class="bio">
+        <p>Hi, I'm Jagadeesh! I'm a software developer passionate about coding and sharing knowledge with others. Welcome to my blog!</p>
+      </div>
 
-    <!-- Navigation -->
-    <nav>
-      <ul>
-        <li><a href="{{ "/" | relative_url }}"><i class="fas fa-home"></i></a></li>
-        <li><a href="{{ "/posts" | relative_url }}"><i class="fas fa-blog"></i></a></li>
-      </ul>
-    </nav>
+      <!-- Social Links -->
+      {% include social-links.html %}
+
+      <!-- Navigation -->
+      <nav>
+        <ul>
+          <li><a href="{{ "/" | relative_url }}"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="{{ "/posts" | relative_url }}"><i class="fas fa-blog"></i> Posts</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <!-- Main Content -->
   <main>
-    {{ content }}
+    <div class="container">
+      {{ content }}
+    </div>
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>Built with Jekyll and Minima theme</p>
+    <div class="container">
+      <p>Built with Jekyll and Minima theme</p>
+    </div>
   </footer>
 
 </body>
