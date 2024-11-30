@@ -1,9 +1,15 @@
+---
+layout: default
+title: "Home"
+---
+
+## Featured Posts
+
 <ul>
-  {% assign featured_posts = site.config.featured_posts %}
   {% for post in site.posts %}
-    {% if featured_posts contains post.id %}
+    {% if post.url in site.featured_posts %}
       <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%B %d, %Y" }}</small>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
       </li>
     {% endif %}
   {% endfor %}
