@@ -1,12 +1,16 @@
-title: "Technical Blog"
+title: "8L09 Blog"
 description: "Welcome to my blog!"
-author: "Jagadeesh Mummana"
+author: "Your Name"
 theme: minima
-url: "https://Mummanajagadeesh.github.io/8L09"
+url: "https://<your-github-username>.github.io/8L09"
 baseurl: "/8L09"
 social_links:
   twitter: "https://twitter.com/yourhandle"
-  github: "https://github.com/Mummanajagadeesh"
+  github: "https://github.com/yourhandle"
   linkedin: "https://linkedin.com/in/yourhandle"
 plugins:
   - jekyll-seo-tag
+featured_posts:
+  - 2024-11-01-welcome-to-blog
+  - 2024-11-15-another-post
+  - 2024-11-30-hello-world
