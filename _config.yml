@@ -1,13 +1,13 @@
-title: "8L09 Blog"
-description: "Welcome to my blog!"
-author: "Your Name"
+title: "8L09s"
+description: "Welcome to my blog!!"
+author: "Jagadeesh Mummana"
 theme: minima
 url: "https://Mummanajagadeesh.github.io/8L09"
 baseurl: "/8L09"
 social_links:
   twitter: "https://twitter.com/yourhandle"
-  github: "https://github.com/yourhandle"
-  linkedin: "https://linkedin.com/in/yourhandle"
+  github: "https://github.com/Mummanajagadeesh"
+  linkedin: "https://www.linkedin.com/in/jagadeeeshmummana"
 plugins:
   - jekyll-seo-tag
 featured_posts:
