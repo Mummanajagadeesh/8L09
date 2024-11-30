@@ -1,6 +1,7 @@
 <ul>
+  {% assign featured_posts = site.config.featured_posts %}
   {% for post in site.posts %}
-    {% if post.id in site.featured_posts %}
+    {% if featured_posts contains post.id %}
       <li>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%B %d, %Y" }}</small>
       </li>
