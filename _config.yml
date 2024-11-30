@@ -5,9 +5,9 @@ theme: minima
 url: "https://Mummanajagadeesh.github.io/8L09"
 baseurl: "/8L09"
 social_links:
-  twitter: "https://twitter.com/yourhandle"
   github: "https://github.com/Mummanajagadeesh"
   linkedin: "https://www.linkedin.com/in/jagadeeeshmummana"
+  instagram: "https://www.instagram.com/jagadeesh__97__"
 plugins:
   - jekyll-seo-tag
 featured_posts:
