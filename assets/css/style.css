@@ -14,11 +14,18 @@ body {
   padding: 0;
 }
 
+.container {
+  width: 80%;
+  max-width: 1200px;  /* Max width for large screens */
+  margin: 0 auto;  /* Center-aligns the content */
+  padding: 20px;
+}
+
 header {
   background-color: #333;  /* Dark header background */
   color: #fff;  /* White text in the header */
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 header h1 {
@@ -30,15 +37,21 @@ header p {
   font-size: 18px;
 }
 
-header nav {
+/* Bio Section */
+.bio {
   margin-top: 20px;
+  font-size: 16px;
+  color: #ccc;
+  text-align: center;
 }
 
+/* Navigation */
 header nav ul {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 header nav ul li {
@@ -110,4 +123,13 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
 }
