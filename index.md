@@ -3,9 +3,12 @@ layout: default
 title: "Home"
 ---
 
-{% include profile.html %}
-{% include social-links.html %}
-
 ## Featured Posts
 
-{% include featured-posts.html %}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>
