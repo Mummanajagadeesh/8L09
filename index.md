@@ -1,5 +1,11 @@
 ---
-layout: home
+layout: default
+title: "Home"
 ---
 
-Welcome to my blog! Check out the posts below.
+{% include profile.html %}
+{% include social-links.html %}
+
+## Featured Posts
+
+{% include featured-posts.html %}
